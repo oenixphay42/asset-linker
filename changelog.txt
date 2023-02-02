@@ -1,0 +1,79 @@
+3.1.2 :
+	Directories beginning with "." will be ignored.
+	
+	Finished February 2, 2023.
+
+3.1.1 :
+	Fixed a bug where individual files could not be added to assets.
+	Made setting windows_names to true have an effect on all platforms.
+	
+	Finished December 30, 2022.
+
+3.1 :
+	Moved older versions to the bottom of the changelog.
+	There is now a config file, at EditorPaths.get_config_dir() + "/asset_linker.conf"
+	  (This replaces the script configuration mentioned in the previous update.)
+	Improved consistency in tooltips.
+	
+	Finished December 10, 2022.
+
+3.0 :
+	Code cleanup.
+	Added some configuration settings in res://addons/asset_links/asset_links.gd
+	Will now copy files instead of creating symlinks if symlinks are unavailable. 
+	  (This can be forced by making the initial value of symlinks false in res://addons/asset_links/asset_links.gd)
+	Add To Assets now works in a cross platform manner.
+	Interface rework.
+	Can now delete assets, move them to the system trash, and make directories.
+	Errors now display until dismissed, or when another action succeeds.
+	Changelog and plugin are now distributed seperately.
+	
+	Finished December 7, 2022.
+
+2.1.1 :
+	Removed a forgotten print.
+	
+	Unknown date.
+
+2.1 :
+	Scroll will no longer reset when refreshing the list.
+	Windows (should) be able to copy individual files to the assets folder.
+	
+	Unknown date.
+
+2.0.1 :
+	Tooltips. (maybe bad ones)
+	
+	Unknown date.
+
+2.0 :
+	Initial windows support. (Add To Assets needed testing, due to lazy OS.execute calls.)
+	Default assets folder changed to be in the persistent editor data folder, instead of $HOME/assets.
+	
+	Unknown date.
+
+1.4.1 :
+	The assets folder is now created if it didn't exist.
+	
+	Unknown date.
+
+1.4 :
+	Initial public release.
+	Can now open the selected file or directory.
+	More? idk
+	
+	Unknown date.
+
+1.1 - 1.3 (forgotten order) :
+	Can link to directories.
+	Other stuff. This was a while ago, so I don't remember.
+	
+	Unknown date.
+
+1.0 :
+	Mostly usable.
+	
+	Unknown date.
+
+INITIAL :
+	Development started.
